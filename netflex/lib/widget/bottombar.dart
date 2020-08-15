@@ -6,7 +6,7 @@ class BottomBar extends StatelessWidget {
     return Container(
       color: Colors.black,
       child: Container(
-        height: 50,
+        height: 60,
         child: TabBar(
           labelColor: Colors.white,
           unselectedLabelColor: Colors.white60,
@@ -15,7 +15,7 @@ class BottomBar extends StatelessWidget {
             Tab(
               icon: Icon(
                 Icons.home,
-                size: 15,
+                size: 17,
               ),
               child: Text(
                 '홈',
@@ -25,7 +25,7 @@ class BottomBar extends StatelessWidget {
             Tab(
               icon: Icon(
                 Icons.search,
-                size: 15,
+                size: 17,
               ),
               child: Text(
                 '검색',
@@ -35,7 +35,7 @@ class BottomBar extends StatelessWidget {
             Tab(
               icon: Icon(
                 Icons.save_alt,
-                size: 15,
+                size: 17,
               ),
               child: Text(
                 '저장 목록',
@@ -45,7 +45,7 @@ class BottomBar extends StatelessWidget {
             Tab(
               icon: Icon(
                 Icons.list,
-                size: 15,
+                size: 17,
               ),
               child: Text(
                 '더보기',

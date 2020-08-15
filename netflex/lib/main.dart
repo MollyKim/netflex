@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:netflex/screen/home_screen.dart';
+import 'package:netflex/screen/like_Screen.dart';
 import 'package:netflex/screen/more_screen.dart';
+import 'package:netflex/screen/search_screen.dart';
 import 'package:netflex/widget/bottombar.dart';
 
 void main() {
@@ -31,8 +33,8 @@ class _MyAppState extends State<MyApp> {
             physics: NeverScrollableScrollPhysics(),
             children: [
               HomeScreen(),
-              Container(),
-              Container(),
+              SearchScreen(),
+              LikeScreen(),
               MoreScreen(),
             ],
           ),
